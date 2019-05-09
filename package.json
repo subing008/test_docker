@@ -1,7 +1,8 @@
 {
   "name": "node-test",
   "version": "0..1",
-  "private": true,
+  "author": "sub",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
