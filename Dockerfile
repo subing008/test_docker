@@ -8,7 +8,7 @@ RUN mkdir -p /home/test-node
 WORKDIR /home/test-node
 
 #  将Dockerfile当前目录下所有文件拷贝至容器内项目目录并安装项目依赖
-COPY . /www/wwwroot/test-node
+COPY . /home/test-node
 RUN npm install
 
 # 容器对外暴露的端口号，要和node项目配置的端口号一致
