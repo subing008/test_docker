@@ -15,4 +15,4 @@ RUN npm install
 EXPOSE 3000
 
 # 容器启动时执行的命令
-CMD [ "node", "server.js" ]
+CMD [ "npm", "start" ]
