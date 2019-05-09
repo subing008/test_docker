@@ -1,12 +1,24 @@
 {
-  "name": "node-test",
-  "version": "0..1",
-  "author": "sub",
+  "name": "docker-node",
+  "version": "1.0.0",
+  "description": "测试docker镜像仓库",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subing008/test_docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subing008/test_docker/issues"
+  },
+  "homepage": "https://github.com/subing008/test_docker#readme",
+  "devDependencies": {
     "express": "^4.16.4"
   }
 }
